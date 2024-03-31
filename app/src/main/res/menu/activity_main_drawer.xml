@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kotakmasuk"
+            android:icon="@drawable/inbox"
+            android:title="Semua kotak masuk" />
+        <item
+            android:id="@+id/nav_utama"
+            android:icon="@drawable/utama"
+            android:title="Utama" />
+        <item
+            android:id="@+id/nav_promosi"
+            android:icon="@drawable/promosi"
+            android:title="Promosi" />
+        <item
+            android:id="@+id/nav_sosial"
+            android:icon="@drawable/sosial"
+            android:title="Sosial" />
+        <item
+            android:id="@+id/nav_star"
+            android:icon="@drawable/berbintang"
+            android:title="Berbintang" />
+    </group>
+</menu>
